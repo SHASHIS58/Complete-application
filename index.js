@@ -53,9 +53,7 @@ const sortByHelper = (sortBy, sortDirection) => {
       : b.acctNum.localeCompare(a.acctNum);
   };
 };
-
-console.log(getAccountNumbers());
 console.log(getAccountNumbers("Bob"));
 console.log(getAccountNumbers("Charlie"));
-console.log(getAccountNumbers("balance", "acctNum"));
+console.log(getAccountNumbers());
 console.log(getAccountNumbers("Alice", "balance", "asc"));
